@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T15:07:46.154Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qLzL1_G7oV4LG3DOur-r" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-24T11:03:44.825Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="4hB1EESoEp4fClPtIVQQ" version="22.1.11" type="github">
   <diagram name="Page-1" id="VifNCHUYFa7v5-b2TCyA">
-    <mxGraphModel dx="2092" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,7 +67,7 @@
             <mxPoint x="690" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1TKv8SIK1M02E480PYrk-31" value="&lt;font face=&quot;Roboto&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; style=&quot;font-size: 13px;&quot;&gt;1. A new branch is checked out from Master branch.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2. Policies changes are entered in JSON format.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. The branch is open for a review in Pull Request&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;4. If the review is passed the change is being merged&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;5. A WebHook is being sent with info on the latest changes to Configurator app.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;6. A command to reconcile changes is being sent to the F5 Configurator app&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;7. A change is pushed to the its&#39; proper location on both FWs&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1TKv8SIK1M02E480PYrk-31" value="&lt;font face=&quot;Roboto&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; style=&quot;font-size: 13px;&quot;&gt;1. A new branch is checked out from Master branch.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;2. Policies changes are entered in JSON format.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3. The branch is open for a review in Pull Request&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;4. If the review is passed the change is being merged&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;5. A WebHook is being sent with info on the latest changes to Configurator app.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;6. A command to reconcile changes is being processed on F5 Configurator app&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;7. A change is pushed to the its&#39; proper location on both FWs&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="117.5" y="590" width="370" height="150" as="geometry" />
         </mxCell>
         <mxCell id="1TKv8SIK1M02E480PYrk-35" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
@@ -81,6 +81,9 @@
         </mxCell>
         <mxCell id="1TKv8SIK1M02E480PYrk-38" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
           <mxGeometry x="700" y="355.75" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1TKv8SIK1M02E480PYrk-40" value="&lt;font style=&quot;font-size: 13px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Roboto&quot; face=&quot;Roboto&quot;&gt;Users&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="390" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
